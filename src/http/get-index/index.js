@@ -24,7 +24,7 @@ let body = `
 `
 // boilerplate Lambda function handler
 exports.handler = async function http(req) {
-  console.log('Praise Cage')
+  console.log('Praise the Cage')
   return {
     statusCode: 200,
     headers: {
